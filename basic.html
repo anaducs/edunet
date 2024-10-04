@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        student details
+    </h1>
+    <FORM action="/index.html">
+        <LAbel for ="name">Name</LAbel>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address"></textarea><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <input type="radio" id="gender" name="gender" value="male" >
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="female">female</label>s
+        <BR></BR>
+        <label for="Preference">Preference</label><BR></BR>
+        <input type="checkbox" name="java-fullstack" id="java-fullstack" value="java-fullstack">
+        <label for="java-fullstack">java-fullstack</label>
+        <input type="checkbox" name="python-fullstack" id="python-fullstack"value="python-fullstack">
+        <label for="python-fullstack">python-fullstack</label>
+        <input type="checkbox" name="MERN-STACK" id="MERN-STACK">
+        <LAbel for="MERN-STACK">MERN-STACK</LAbel>
+        <BR></BR>
+        <label for="location">select your location</label>
+        <input list="locations" name="location" id="location">
+        <datalist id="locations">
+            <option value="Ernakulam">Ernakulam</option>
+            <option value="Trivandrum">Trivandrum</option>
+            <option value="Banglore">Banglore</option>
+        </datalist>
+        <br>
+        <input type="submit" name="submit" id="submit">
+
+    </FORM>
+</body>
+</html>
