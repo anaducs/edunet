@@ -33,7 +33,14 @@ body{
     top: 20px;
     right: 20px;
 }
+.container{
+    height: 500px;
+    overflow-y: scroll;
+    border: 2px solid #000;
+    padding: 10px;
+}
 .sticky-box{
     position: sticky;
     top: 0;
+    width:fit-content;
 }
