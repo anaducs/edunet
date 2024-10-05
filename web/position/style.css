@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #628dce;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.static-box{
+    position: static;
+}
+.relative-box{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.fixed-box{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.sticky-box{
+    position: sticky;
+    top: 0;
+}

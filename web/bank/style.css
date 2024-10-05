@@ -1,0 +1,40 @@
+h1{
+    color: brown;
+    font-size: larger;
+}
+
+header{
+    color: blueviolet;
+}
+#bottomscroll{
+    color: red;
+}
+
+body{
+     font-family: 'Times New Roman', Times, serif;
+}
+marquee{
+    width: 50%;
+}
+section{
+   
+    margin: 10px 20px 10px 10px;
+    padding: 10px;
+
+}
+#header_top{
+    text-align: end;
+margin-left: 100px;
+}
+#header_middle{
+    text-align: justify;
+}
+nav ul{
+    display: inline;
+}
+nav li{
+    display: inline;
+}
+section{
+    
+}
