@@ -1,0 +1,14 @@
+#spaceAboveNav{
+    background:#f6f6fa;
+    padding: 10px;
+}
+ul{
+    
+    list-style: none;
+}
+li{
+    display: inline;
+}
+#navigation{
+    display: inline;
+}
