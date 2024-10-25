@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About'
 import Conatct from './components/Conatct'
 import Footer from './components/footer'
+import Hocks from './components/Hocks'
 import Home from './components/home'
 import List from './List'
 
@@ -17,6 +18,7 @@ function App() {
     <About/>
     <Footer/>
     <List/>
+    <Hocks/>
     
     </>
   )
